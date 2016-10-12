@@ -15,6 +15,7 @@ namespace Capstone.Classes
 
         public void Run()
         {
+            
             vm.Stock();
             vm.InitSalesReport();
             string input = "";
@@ -61,6 +62,8 @@ namespace Capstone.Classes
         }
         public void DisplayMenu()
         {
+            Console.WriteLine("Welcome to the Vendo-Machine from Umbrella Corp.");
+
             Dictionary<string, Inventory> vmInventory = vm.GetInventory();
 
             foreach (KeyValuePair<string, Inventory> kvp in vmInventory)
