@@ -1,1 +1,1 @@
-This project was created as part of my Tech Elevator .Net education. The purpose was to model a function vending machine while employing OOP fundamentals.
+This project was created as part of my Tech Elevator .Net education. The purpose was to model a function vending machine while employing OOP fundamentals. Using a series of classes, I was able to model function such as balance tracking, quanity count, and sales reporting to txt files. 
